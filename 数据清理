@@ -8,7 +8,9 @@ For i = 1 To 1000
         Selection.Delete shift:=xlUp
     End If
 Next
+
 Range("A1").Select
+
 End Sub
 
 Sub 填充发票号()
