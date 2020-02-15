@@ -5,7 +5,7 @@ If Dir(Filename) = "" Then
     MsgBox "未找到相关文件"
     Exit Sub
     Else
-    FileCopy Filename, Filename & ".bak" '备份文件。
+    FileCopy Filename, Filename & ".bak" '备份文件
 End If
 
 Dim GetData As String * 5
